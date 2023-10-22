@@ -1,0 +1,45 @@
+.menu-bar__container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    /* Mantém o menu fixo ao rolar a pág*/
+    z-index: 999;
+    /*Elemento fica a frente de todos */
+    background-color: #fff;
+
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.menu-bar__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu-bar__item {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.menu-bar__item>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-bar__item>ul>li {
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.menu-bar__item>ul>li>a {
+    color: #070707;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu-bar__item>ul>li>a:hover {
+    color: #00f;
+    
+}
