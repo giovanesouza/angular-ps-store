@@ -1,0 +1,8 @@
+@media (max-width: 450px) {
+    .menu-bar__container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0 0;
+    }
+}
