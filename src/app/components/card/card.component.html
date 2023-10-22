@@ -1,1 +1,14 @@
-<p>card works!</p>
+<a href="#" class="card__container">
+
+    <!-- data biding: A propriedade gameCover fica lincada ao [src]
+    
+    Permite atribuir valor no lado de fora do card. Neste caso, na pag Home
+    -->
+    <img class="card__img" [src]=[gameCover] alt="" />
+
+    <!-- Propriedade filha recebe o valor setado no mesmo atributo do componente pai -->
+    <app-card-label gameLabel="{{gameLabel}}"></app-card-label>
+    
+    <!-- Propriedade filha recebe o valor setado no mesmo atributo do componente pai -->
+    <app-card-pricing gameType="{{gameType}}" gamePrice="{{gamePrice}}"></app-card-pricing>
+</a>
